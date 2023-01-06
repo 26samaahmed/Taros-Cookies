@@ -1,0 +1,79 @@
+.block-2 {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: solid;
+  border-color:rgb(122, 41, 41);
+  box-shadow: 3px 3px 5px maroon;
+}
+
+.sign-up {
+  color: rgb(122, 41, 41);
+  font-weight: bold;
+  font-family: Source Serif Pro;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 8px;
+}
+
+.first-name,
+.last-name,
+.email,
+.password {
+  font-family: Source Serif Pro;
+  margin-left: 50px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.input-1,
+.input-2,
+.input-3,
+.input-4 {
+  margin-left: 50px;
+  width: 280px;
+  height: 20px;
+  border-radius: 5px;
+  display: block;
+  border: solid;
+  border-color: rgb(176, 174, 174);
+  padding: 8px;
+  font-family:Source Serif Pro;
+  font-size: 18px;
+  color: rgb(122, 41, 41);
+}
+
+.create-account {
+  display: block;
+  margin-left: 50px;
+  width: 300px;
+  height: 48px;
+  text-align: center;
+  border-radius: 20px;
+  font-family:Source Serif Pro;
+  font-size: 20px;
+  background-color: rgb(122, 41, 41);
+  color: white;
+  box-shadow: 2px 2px 2px maroon;
+  cursor: pointer;
+  transition: background-color 0.20s, color 0.20s;
+}
+
+.block-3 {
+  margin-top: 30px;
+}
+
+.create-account:hover {
+  background-color: rgb(251, 251, 251);
+  color: black;
+  opacity: 0.8;
+  box-shadow: 5px 5px 5px maroon;
+}
+
+.create-account:active {
+  opacity: 0.8;
+}
