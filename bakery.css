@@ -1,0 +1,118 @@
+html {
+  background-color:rgb(245, 234, 220);
+}
+
+.cookie-icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.cookie {
+  width: 500px;
+  height: 280px;
+  float: right;
+  margin-right: 80px;
+}
+
+.sign-in,
+.home,
+.menu,
+.contact {
+  color: rgb(122, 41, 41);
+  font-weight: bold;
+  margin-left: 70px;
+  font-size: 28px;
+  margin-top: 13px;
+  cursor: pointer;
+  font-family: Source Serif Pro;
+  position: relative;               
+  text-decoration: none;            
+}
+
+.menu:after,
+.contact:after,
+.sign-in:after,
+.home:after {
+  transform: scaleX(0);         
+  position: absolute;               
+  bottom: 0;                        
+  left: 0;                          
+  transform-origin: bottom right;  
+  transition: transform 0.25s ease-out;     
+  content: "";                     
+  height: 2px;
+  width: 100%;
+  background-color:rgb(122, 41, 41) ;
+}
+
+.menu:hover:after,            
+.contact:hover:after,        
+.sign-in:hover:after,         
+.home:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.sign-in {
+  margin-left: 650px;
+}
+
+.block-1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.taro {
+  font-size: 82px;
+  font-family: Rubik Bubbles;
+  color: rgb(146, 85, 6);
+  margin-left: 70px;
+  margin-top: 130px;
+}
+
+.description {
+  width: 590px;
+  margin-left: 70px;
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 25px;
+  color: rgb(122, 41, 41);
+}
+
+.order {
+  height: 60px;
+  width: 250px;
+  border-radius: 120px;
+  font-size: 35px;
+  margin-left: 70px;
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(122, 41, 41);
+  font-family: Roboto Condensed;
+  box-shadow: 3px 3px 3px rgb(94, 7, 7);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.signature {
+  display: block;
+  margin-left: 32px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 60px;
+  font-family:Source Serif Pro;
+  font-size: 15px;
+  background-color: rgb(122, 41, 41);
+  color: white;
+  box-shadow: 2px 2px 2px maroon;
+  cursor: pointer;
+}
+
+.block-5 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
