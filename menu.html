@@ -2,68 +2,95 @@
 <html>
   <head>
     <title>Menu Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#my-cart").click(function(){
+        $("#slide-down-and-up-transition").slideToggle("slow");
+      });
+    });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Roboto+Condensed&family=Rubik+Bubbles&family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="samastyle/bakery.css">
     <link rel="stylesheet" href="samastyle/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="block-1">
+    <div class="header">
       <img class="cookie-icon" src="images/cookie-icon.png">
-      <a class="home" href="bakery.html">Home</a>
-      <a class="menu" href="menu.html">Menu</a>
-      <a class="contact" href="contact.html">Contact</a>
-      <a class="sign-in" href="login.html">Sign In</a>
+      <a class="home-page" href="bakery.html">Home</a>
+      <a class="menu-page" href="menu.html">Menu</a>
+      <a class="contact-page" href="contact.html">Contact</a>
+      <a class="sign-in-page" href="login.html">Sign In</a>
+
+      <div id="my-cart">
+        <i class="fa fa-shopping-cart" style="
+        color: rgb(122, 41, 41);
+        font-weight: bold;
+        font-size: 28px;
+        margin-top: 13px;
+        cursor: pointer;
+      "></i>
+      </div>
+      <div id="slide-down-and-up-transition">
+       <p class="my-cart-is-empty"> Your cart is empty</p>
+       <button class="start-your-order">Start your Order</button>
+      </div>  
     </div>
   
-    <div class="block-2">
-      <h1 class="menu-page">Menu</h1>
-      <h2 class="flavors">Cookie Flavors</h2>
+    <div class="the-menu">
+      <h1 class="menu-title">Menu</h1>
+      <h2 class="cookie-flavors">Cookie Flavors</h2>
 
       <div class="box-1">
-        <img class="peanut-butter" src="images/cookie-1.jpeg">
+        <img class="peanut-butter-cookies" src="images/cookie-1.jpeg">
         <p>Peanut Butter Cookies</p>
       </div>
 
       <div class="box-2">
-        <img class="chocolate-chip" src="images/cookie-2.jpeg">
+        <img class="chocolate-chip-cookies" src="images/cookie-2.jpeg">
         <p>Chocolate Chip Cookies</p>
       </div>
 
       <div class="box-3">
-        <img class="oatmeal-raisin" src="images/cookie-3.jpeg">
+        <img class="oatmeal-raisin-cookies" src="images/cookie-3.jpeg">
         <p>Oatmeal Raisin Cookies</p>
       </div>
 
       <div class="box-4">
-        <img class="kiss" src="images/cookie-4.jpeg">
+        <img class="kiss-cookies" src="images/cookie-4.jpeg">
         <p>Kiss Cookies</p>
       </div>
 
       <div class="box-5">
-        <img class="snowball" src="images/cookie-5.webp">
+        <img class="snowball-cookies" src="images/cookie-5.webp">
         <p>SnowBall Cookies</p>
       </div>
 
       <div class="box-6">
-        <img class="thumbprint" src="images/cookie-6.jpeg">
+        <img class="thumbprint-cookies" src="images/cookie-6.jpeg">
         <p>Thumbprint Cookies</p>
       </div>
 
       <div class="box-7">
-        <img class="macaroons" src="images/cookie-7.jpeg">
+        <img class="macaroon-cookies" src="images/cookie-7.jpeg">
         <p>Macarons</p>
       </div>
 
       <div class="box-8">
-        <img class="white-chocolate-macadamia-nut" src="images/cookie-8.jpeg">
+        <img class="white-chocolate-macadamia-nut-cookies" src="images/cookie-8.jpeg">
         <p>White Chocolate Macademia Nut Cookies</p>
       </div>
 
       <div class="box-9">
-        <img class="snicker-doodle" src="images/cookie-9.jpeg">
+        <img class="snicker-doodle-cookies" src="images/cookie-9.jpeg">
         <p>Snicker Doodle Cookies</p>
       </div> 
     </div>
+   <div class="my-name">
+    <button class="signature">Sama Ahmed</button>
+ </div>
   </body>
 </html>
