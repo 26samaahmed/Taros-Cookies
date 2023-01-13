@@ -1,9 +1,17 @@
 # Taro's Cookie Website
 Using HTML and CSS, I created a design for a cookie shop.
 
-<img width="1440" alt="Screen Shot 2023-01-06 at 1 49 02 PM" src="https://user-images.githubusercontent.com/111910374/211106047-f57fb3e3-a959-483d-bcf4-56cee76417d6.png">
-<img width="1440" alt="Screen Shot 2023-01-06 at 1 49 40 PM" src="https://user-images.githubusercontent.com/111910374/211106058-da50f268-5a0e-4e68-84aa-3692897112e1.png">
-<img width="1440" alt="Screen Shot 2023-01-06 at 1 49 54 PM" src="https://user-images.githubusercontent.com/111910374/211106071-3f59b92c-b495-456d-b3f6-f23288c68a54.png">
-<img width="1440" alt="Screen Shot 2023-01-06 at 1 50 07 PM" src="https://user-images.githubusercontent.com/111910374/211106090-2e7c3869-062b-4237-8345-268884c4ef49.png">
-<img width="1440" alt="Screen Shot 2023-01-06 at 1 50 24 PM" src="https://user-images.githubusercontent.com/111910374/211106103-de2daa7a-1f67-4b8f-9403-b3b3e57f9b8c.png">
-<img width="1440" alt="Screen Shot 2023-01-06 at 1 50 38 PM" src="https://user-images.githubusercontent.com/111910374/211106111-effa583b-9886-4520-95b6-9a987003adbe.png">
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 44 58 PM" src="https://user-images.githubusercontent.com/111910374/212211757-5e43a299-e8f7-4748-9e91-cfc996cc3c65.png">
+
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 45 20 PM" src="https://user-images.githubusercontent.com/111910374/212211777-4ac1ee68-dd2f-43bc-befc-4fe7ef0d4eeb.png">
+
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 46 02 PM" src="https://user-images.githubusercontent.com/111910374/212211805-016a836c-1c5e-486b-ad1f-66310c96dec9.png">
+
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 47 00 PM" src="https://user-images.githubusercontent.com/111910374/212211823-da400e25-28d2-4aab-b2bc-2fa0a5f1ff50.png">
+
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 48 29 PM" src="https://user-images.githubusercontent.com/111910374/212211835-578882ee-ce6c-45ec-a20f-7069a700a3af.png">
+
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 48 47 PM" src="https://user-images.githubusercontent.com/111910374/212211846-63ef7adf-9326-4555-9e23-a546a7ec99d9.png">
+
+<img width="1440" alt="Screen Shot 2023-01-12 at 4 49 02 PM" src="https://user-images.githubusercontent.com/111910374/212211851-99a5a1b5-739f-43bc-89c0-57e54602d71f.png">
+
