@@ -34,21 +34,21 @@ html {
 .contact-page:after,
 .sign-in-page:after,
 .home-page:after {
-  transform: scaleX(0);             /* scale x resizes an element along the x-axis */
-  position: absolute;               /* an absolute positioned element is an element where it's position value is fixed */
-  bottom: 0;                        /* setting the vertical position of a positioned element (has no effect on non-positioned elements) */
-  left: 0;                          /* setting the horizontal position of a positioned element (has no effect on non-positioned elements) */
-  transform-origin: bottom right;   /* changes the position of a transformed element */
-  transition: transform 0.25s ease-out;     /* ease-out: fast start and slow end */
-  content: "";                     /* replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements */
+  transform: scaleX(0);             
+  position: absolute;               
+  bottom: 0;                     
+  left: 0;                         
+  transform-origin: bottom right;   
+  transition: transform 0.25s ease-out;     
+  content: "";                    
   height: 2px;
   width: 100%;
   background-color:rgb(122, 41, 41) ;
 }
 
-.menu-page:hover:after,            /* hover is used to select eleemnts when you mouse over them */
-.contact-page:hover:after,         /* after: a pseudo element that appears after your elements */
-.sign-in-page:hover:after,         /* the line under the words appears after I hover over the words */
+.menu-page:hover:after,          
+.contact-page:hover:after,         
+.sign-in-page:hover:after,         
 .home-page:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
