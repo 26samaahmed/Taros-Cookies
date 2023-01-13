@@ -1,4 +1,4 @@
-.block-2 {
+.contacting-information {
   background-color: white;
   width: 750px;
   height: 500px;
@@ -21,11 +21,11 @@
   padding-top: 10px;
 }
 
-.input-1,
-.input-2,
-.input-3,
-.input-4,
-.input-5 {
+.first-name,
+.last-name,
+.email-address,
+.phone-number,
+.the-message {
   margin-left: 32px;
   width: 300px;
   height: 20px;
@@ -41,13 +41,13 @@
   display: inline;
 }
 
-.input-5 {
+.the-message {
   padding-bottom: 150px;
   width: 657px;
   margin-bottom: 20px;
 }
 
-.send {
+.send-message {
   display: block;
   margin-left: 32px;
   width: 180px;
@@ -63,13 +63,13 @@
   transition: background-color 0.20s, color 0.20s;
 }
 
-.send:hover {
+.send-message:hover {
   background-color: rgb(251, 251, 251);
   color: black;
   opacity: 0.8;
   box-shadow: 5px 5px 5px maroon;
 }
 
-.send:active {
+.send-message:active {
   opacity: 0.8;
 }
