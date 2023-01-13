@@ -1,4 +1,4 @@
-.block-2 {
+.logging-in {
   background-color: white;
   width: 400px;
   height: 500px;
@@ -58,6 +58,7 @@
   cursor: pointer;
   transition: background-color 0.20s, color 0.20s;
 }
+
 .log-in-button:hover {
   background-color: rgb(251, 251, 251);
   color: black;
@@ -74,7 +75,7 @@
   accent-color: rgb(122, 41, 41);
 }
 
-.remember {
+.remember-me {
   display: inline-block;
   font-size: 18px;
   margin-top: 20px;
@@ -91,6 +92,6 @@
  cursor: pointer;
 }
 
-.block-3 {
+.options {
  margin-top: 30px;
 }
