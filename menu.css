@@ -1,4 +1,4 @@
-.block-2 {
+.the-menu {
   background-color: white;
   width:1150px;
   height: 100%;
@@ -13,7 +13,7 @@
   margin-bottom: 100px;
 }
 
-.menu-page {
+.menu-title {
   color: rgb(122, 41, 41);
   font-weight: bold;
   font-family: Source Serif Pro;
@@ -22,7 +22,7 @@
   padding-top: 10px;
 }
 
-.flavors {
+.cookie-flavors {
   color: rgb(122, 41, 41);
   font-weight: bold;
   font-family: Shadows Into Light;
@@ -50,15 +50,15 @@
   cursor: pointer;
 }
 
-.peanut-butter,
-.chocolate-chip,
-.oatmeal-raisin,
-.kiss,
-.snowball,
-.thumbprint,
-.macaroons,
-.white-chocolate-macadamia-nut,
-.snicker-doodle {
+.peanut-butter-cookies,
+.chocolate-chip-cookies,
+.oatmeal-raisin-cookies,
+.kiss-cookies,
+.snowball-cookies,
+.thumbprint-cookies,
+.macaroon-cookies,
+.white-chocolate-macadamia-nut-cookies,
+.snicker-doodle-cookies {
   width: 330px;
   height: 290px;
   border-radius: 5px;
