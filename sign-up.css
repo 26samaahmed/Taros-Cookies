@@ -1,4 +1,4 @@
-.block-2 {
+.account-information {
   background-color: white;
   width: 400px;
   height: 600px;
@@ -63,7 +63,7 @@
   transition: background-color 0.20s, color 0.20s;
 }
 
-.block-3 {
+.account {
   margin-top: 30px;
 }
 
