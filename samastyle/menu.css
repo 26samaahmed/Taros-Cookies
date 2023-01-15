@@ -1,0 +1,79 @@
+.the-menu {
+  background-color: white;
+  width:1150px;
+  height: 100%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: solid;
+  border-color:rgb(122, 41, 41);
+  box-shadow: 3px 3px 5px maroon;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 100px;
+}
+
+.menu-title {
+  color: rgb(122, 41, 41);
+  font-weight: bold;
+  font-family: Source Serif Pro;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.cookie-flavors {
+  color: rgb(122, 41, 41);
+  font-weight: bold;
+  font-family: Shadows Into Light;
+  text-align: left;
+  font-size: 40px;
+  margin-top: 8px;
+  margin-left: 32px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9 {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.peanut-butter-cookies,
+.chocolate-chip-cookies,
+.oatmeal-raisin-cookies,
+.kiss-cookies,
+.snowball-cookies,
+.thumbprint-cookies,
+.macaroon-cookies,
+.white-chocolate-macadamia-nut-cookies,
+.snicker-doodle-cookies {
+  width: 330px;
+  height: 290px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 4px;
+  display: block;
+}
+
+p {
+  color: rgb(122, 41, 41);
+  font-weight: bold;
+  font-family: Shadows Into Light;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 8px;
+  margin-left: 32px;
+}

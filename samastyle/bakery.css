@@ -1,0 +1,176 @@
+html {
+  background-color:rgb(245, 234, 220);
+}
+
+.cookie-icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.cookie-picture {
+  width: 500px;
+  height: 280px;
+  float: right;
+  margin-right: 80px;
+}
+
+.sign-in-page,
+.home-page,
+.menu-page,
+.contact-page {
+  color: rgb(122, 41, 41);
+  font-weight: bold;
+  margin-left: 70px;
+  font-size: 28px;
+  margin-top: 13px;
+  cursor: pointer;
+  font-family: Source Serif Pro;
+  position: relative;               /* an element that's positioned relative to it's original position */
+  text-decoration: none;            /* to remove the text-underline that's caused by adding an href to the <a> tag */
+}
+
+.menu-page:after,
+.contact-page:after,
+.sign-in-page:after,
+.home-page:after {
+  transform: scaleX(0);             /* scale x resizes an element along the x-axis */
+  position: absolute;               /* an absolute positioned element is an element where it's position value is fixed */
+  bottom: 0;                        /* setting the vertical position of a positioned element (has no effect on non-positioned elements) */
+  left: 0;                          /* setting the horizontal position of a positioned element (has no effect on non-positioned elements) */
+  transform-origin: bottom right;   /* changes the position of a transformed element */
+  transition: transform 0.25s ease-out;     /* ease-out: fast start and slow end */
+  content: "";                     /* replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements */
+  height: 2px;
+  width: 100%;
+  background-color:rgb(122, 41, 41) ;
+}
+
+.menu-page:hover:after,            /* hover is used to select eleemnts when you mouse over them */
+.contact-page:hover:after,         /* after: a pseudo element that appears after your elements */
+.sign-in-page:hover:after,         /* the line under the words appears after I hover over the words */
+.home-page:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.sign-in-page {
+  margin-left: 600px;
+}
+
+#my-cart, #slide-down-and-up-transition {
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  margin-top: -3px;
+}
+
+#my-cart {
+  margin-left: 30px;
+}
+
+#slide-down-and-up-transition {
+  border: 1px solid rgb(122, 41, 41);
+  background-color: white;
+  display: none;
+  box-shadow: 3px 3px 3px rgb(94, 7, 7);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: auto;
+  margin-top: 30px;
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+
+.start-your-order {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(122, 41, 41);
+  font-family: Roboto Condensed;
+  box-shadow: 3px 3px 3px rgb(94, 7, 7);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.my-cart-is-empty {
+  color: rgb(122, 41, 41);
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  margin-top: 20px;
+}
+
+.shop-name {
+  font-size: 82px;
+  font-family: Rubik Bubbles;
+  color: rgb(134, 75, 12);
+  margin-left: 70px;
+  margin-top: 130px;
+}
+
+.description {
+  width: 590px;
+  margin-left: 70px;
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 25px;
+  color: rgb(122, 41, 41);
+}
+
+.order-now {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 120px;
+  font-size: 35px;
+  margin-left: 70px;
+  color: white;
+  background-color: rgb(122, 41, 41);
+  font-family: Roboto Condensed;
+  box-shadow: 3px 3px 3px rgb(94, 7, 7);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: opacity 0.20s;
+}
+
+.order-now:hover {
+  opacity: 0.8;
+}
+
+.order-now-position {
+  margin-top: 50px;
+}
+
+.signature {
+  display: block;
+  margin-left: 32px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family:Caveat;
+  font-size: 15px;
+  color:  rgb(122, 41, 41);
+  border: none;
+  cursor: pointer; 
+  background-color:rgb(245, 234, 220);
+}
+
+.my-name {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
