@@ -103,9 +103,9 @@ html {
 }
 
 .my-cart-is-empty {
+  font-family: Kalam;
   color: rgb(122, 41, 41);
   font-size: 20px;
-  margin-right: 40px;
 }
 
 .header {
