@@ -26,8 +26,8 @@ html {
   margin-top: 13px;
   cursor: pointer;
   font-family: Source Serif Pro;
-  position: relative;               /* an element that's positioned relative to it's original position */
-  text-decoration: none;            /* to remove the text-underline that's caused by adding an href to the <a> tag */
+  position: relative;               
+  text-decoration: none;           
 }
 
 .menu-page:after,
