@@ -79,5 +79,8 @@ p {
 
 .price {
   margin-top: -8px;
-  
+}
+
+.my-cart-is-empty {
+  margin-right: 40px;
 }
