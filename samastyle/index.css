@@ -146,6 +146,7 @@ html {
   cursor: pointer;
   text-align: center;
   transition: opacity 0.20s;
+  text-decoration: none;
 }
 
 .order-now:hover {

@@ -61,6 +61,7 @@
   box-shadow: 2px 2px 2px maroon;
   cursor: pointer;
   transition: background-color 0.20s, color 0.20s;
+  text-decoration: none;
 }
 
 .account {
